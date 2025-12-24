@@ -1,0 +1,24 @@
+# Ignore the environments 
+.direnv/
+
+# Ignore heavy capture files
+*.pcap
+*.pcapng
+*.cap
+
+# Ignore binary dumps & malware samples
+*.bin
+*.exe
+*.dump
+*.img
+
+# Ignore extracted wordlists 
+rockyou.txt
+*.dic
+
+# Ignore sensitive keys/flags 
+id_rsa
+*.pem
+flag.txt
+flag
+.env 
