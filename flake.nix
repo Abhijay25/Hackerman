@@ -1,5 +1,5 @@
 {
-  description = "Hackerman Starter Kit";
+  description = "Hackerman";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
