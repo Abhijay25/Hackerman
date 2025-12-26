@@ -25,6 +25,10 @@
           binwalk         # Checks if one file is hidden inside another.
           unzip           # Extracting archives.
 
+          # --- NETWORK ---
+          dig             # DNS lookup
+          wireshark       # Network protocol analyser
+
           # --- SCRIPTING & CRYPTO ---
           python3
           gcc
