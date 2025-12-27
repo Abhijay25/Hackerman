@@ -33,6 +33,11 @@
           python3
           gcc
         ];
+
+        # Location of 'dumpcap' wrapper
+        shellHook = ''
+          export PATH="/run/wrappers/bin:$PATH"
+        '';
       };
     };
 }
