@@ -32,6 +32,9 @@
           # --- SCRIPTING & CRYPTO ---
           python3
           gcc
+
+          # --- HASHING ---
+          hashcat
         ];
 
         # Location of 'dumpcap' wrapper
